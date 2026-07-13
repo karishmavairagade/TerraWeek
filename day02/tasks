@@ -1,0 +1,27 @@
+Task 1: Master HCL Syntax
+
+Terraform's HCL (HashiCorp Configuration Language), the general anatomy of a block is:
+
+block parameters {
+    arguments
+}
+
+Here block can contain 
+    - resources
+    - output
+    - variable
+    - data
+    - terraform
+
+parameters
+    - resource_name
+    - resource_type
+
+arguments
+    - configurations
+
+eg: 
+resource aws_s3_bucket my_s3_bucket{
+    bucket_name= "Karishma_devops_bucket"
+}
+
